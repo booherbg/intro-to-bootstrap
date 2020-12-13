@@ -12,9 +12,9 @@ finished project.
 We'll move pretty quickly but don't worry. You'll have access to the completed
 project and recorded video so you can review at your leisure. 
 
-### Core Concepts
+## Core Concepts
 
-## Intro
+### Intro
 Bootstrap is a frontend CSS framework created by Twitter that provides a ton of 
 utility classes for responsive behavior, component design, and typography.
 
@@ -34,7 +34,7 @@ and the second are component utilities like vertical and horizonal alignment,
 navbar, form controls (buttons, inputs, drop-downs, etc), alerts, modals, icons,
 and typography.
 
-## Bootstrap Workflow
+### Bootstrap Workflow
 
 Our Bootstrap workflow will be as follows. We'll first set the layout with a
 a navbar and footer, all working inside the Bootstrap `container` class. Then 
