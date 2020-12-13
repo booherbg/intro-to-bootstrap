@@ -1,0 +1,54 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+   text-transform: uppercase;
+}
+
+.curiosity-week-nav-link {
+   color: #F7EA69 !important;
+   border-radius: .25rem;
+}
+
+.curiosity-week-link img {
+   height: 80px;
+}
+
+.curiosity-logo {
+   width: 300px;
+}
+/* Set up some custom backgrounds */
+.bg-curiosity-yellow {
+   color: black;
+   background-color: #F7EA69;
+}
+
+.bg-curiosity-blue {
+   color: white;
+   background-color: #35608A;
+}
+
+/* custom buttons */
+a.btn-curiosity-yellow {
+   background-color: #F7EA69;
+   color: black;
+   font-weight: bold;
+}
+
+a.btn-curiosity-yellow:hover {
+   background-color: #35608A;
+   color: white; 
+   border-color: white;
+}
+
+a.btn-curiosity-blue {
+   background-color: #35608A;
+   color: white;
+   font-weight: bold;
+}
+
+a.btn-curiosity-blue:hover {
+   background-color: #F7EA69;
+   color: black;
+}
