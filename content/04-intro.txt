@@ -1,0 +1,23 @@
+      <!-- step 4: introduction -->
+      <div class="row bg-light p-4">
+         <div class="col-md">
+            <h5 class="text-center font-weight-bold mb-4 mt-3 pl-lg-5 pr-lg-5">We're on a mission to connect the
+               technology community through professional
+               development and learning opportunities. <br />Join us December 13th - 19th.</h5>
+            <p>This year, we are setting out to spark curiosity in the tech community with the creation of Curiosity
+               Week. From December 13th - 19th, there will be 30+ events revolving around technology. These
+               events will be curated to engage those interested in pursuing tech as a career, provide professional
+               development to technology professionals, and give tech entrepreneurs a place to convene. We
+               believe that at the core, growth is sparked by curiosity - so let’s start there.</p>
+            <p>Thanks to the generosity of our sponsors, <strong>tickets are now FREE</strong> (previously $129).
+               You will still need to register on Sched for the individual events that you are interested (see
+               below).
+            </p>
+            <p>Events will be continually updated and added as we approach curiosity week so please check back often.
+            </p>
+            <div class="text-center">
+               <a href="https://curiosityweek2020.sched.com/"
+                  class="btn btn-large btn-curiosity-yellow p-3 pr-5 pl-5">Register for events here!</a>
+            </div>
+         </div>
+      </div>

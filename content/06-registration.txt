@@ -1,0 +1,84 @@
+      <!-- step 6: events & registration -->
+      <div class="row bg-white p-3 pt-5">
+         <div class="col-md-12">
+            <h2>Events + Registration</h2>
+            <p>Join us for keynotes, workshops, courses and more. Events and
+               sessions will be hosted throughout the Fargo-Moorhead area and will
+               be made available to you digitally. This allows you to safely explore
+               all Curiosity Week has to offer.
+            </p>
+
+            <p>Events will cover a wide variety of formats including tech talks,
+               presentations, workshops, and courses. Topics and content could revolve
+               around the following technologies: UX/UI, React Native, React, Ruby on Rails,
+               .NET, Testing, GIS/Mapping, Bootstrap, Material UI/Chakra, Python,
+               PHP / Laravel, VueJS, Data Science / Visualization, Generative Art,
+               along with other topics.</p>
+
+            <p>
+               You can attend one event or all of them depending on your
+               interest and skill level. There will be a variety of free
+               events for our community to learn from Intro to HTML/CSS
+               and career development courses. All events require
+               registration via Sched.</p>
+
+            <p>If you would like to continue to support events like
+               Curiosity Week, you can use the Pay-It-Forward ticket on
+               Eventbrite. As a 501(c)(3) nonprofit organization, when you
+               choose to Pay-It-Forward you give us the ability to continue
+               to put resources behind community events for entrepreneurs,
+               tech professionals, community builders and more.
+            </p>
+         </div>
+      </div>
+
+      <div class="row bg-white">
+         <div class="col-md text-center">
+            <a href="https://curiosityweek2020.sched.com/"
+               class="btn btn-large btn-curiosity-yellow mb-2 pt-3 pb-3 pl-5 pr-5">View All Events</a>
+         </div>
+         <div class="col-md text-center">
+            <a href="https://www.eventbrite.com/e/curiosity-week-all-access-pass-tickets-128173160373"
+               class="btn btn-large btn-curiosity-yellow pt-3 pb-3 pl-5 pr-5">Support The Event Here</a>
+         </div>
+      </div>
+
+      <div class="row bg-white p-3">
+         <div class="col-md">
+            <p>These events are created for a wide variety of people
+               including students, curious minds, technology
+               professionals and more. There are events for all skill
+               levels.
+            </p>
+         </div>
+      </div>
+      <div class="row  bg-white justify-content-md-center pl-3 pr-3">
+         <div class="col-md-4 text-center p-4">
+            <i class="fas fa-binoculars fa-4x"></i>
+            <div class="mt-3"><strong>Explorers</strong><br />
+               <p class="mt-1">For those new to the tech industry and want
+                  to learn more about what’s possible with technology. Find
+                  events that introduce you to the industry and what’s
+                  possible with a career in technology.</p>
+            </div>
+         </div>
+         <div class="col-md-4 bg-white text-center p-4">
+            <i class="fas fa-laptop-code fa-4x"></i>
+            <div class="mt-3"><strong>Beginners</strong><br />
+               <p class="mt-1">For those who have some experience in software
+                  development and technology, there are events and workshops
+                  that allow you to build upon your skills.
+               </p>
+            </div>
+         </div>
+         <div class="col-md-4 bg-white text-center p-4">
+            <i class="fas fa-tools fa-4x"></i>
+            <div class="mt-3"><strong>Professionals</strong><br />
+               <p class="mt-1">For those experienced in the field and
+                  are looking for ways to keep growing, these events,
+                  workshops and courses are geared towards skill
+                  development.
+               </p>
+            </div>
+         </div>
+      </div>

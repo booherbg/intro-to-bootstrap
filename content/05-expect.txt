@@ -1,0 +1,23 @@
+      <!-- step 5: what to expect -->
+      <div class="row bg-curiosity-blue p-3 pt-5">
+         <div class="col-md-7">
+            <h3>What to Expect.</h3>
+            <p>Curiosity Week is a week-long affair
+               filled with events that focus on building
+               up our technology community in our
+               region. This week provides digital events
+               ranging from keynotes, workshops,
+               courses and more.</p>
+            <p>
+               These events will focus on professional
+               development and learning opportunities
+               for those who are tech professionals,
+               as well as training for folks new to the
+               industry or those just curious about a
+               career in the tech profession.
+            </p>
+         </div>
+         <div class="col-md-5">
+            <img src="./images/curiosity-image-1.jpg" class="img-fluid" />
+         </div>
+      </div>

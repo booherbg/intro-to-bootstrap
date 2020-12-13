@@ -1,0 +1,59 @@
+      <!-- step 2: footer -->
+      <!-- footer for the page - see base.css for styling -->
+      <footer class="row rounded-top small mt-3 p-3 text-secondary">
+         <div class="col-lg-2 col-md-2 text-center mb-3">
+            <a href="https://www.emergingacademy.org/"><img class="img-fluid" src="./images/logo-color.png" /></a>
+         </div>
+         <div class="col-md-3 mb-3">
+            <h6>Who We Are</h6>
+            Emerging Digital Academy is an immersive 20-week code school in Fargo, North Dakota.
+            Start the path to your new career today.
+         </div>
+         <div class="col-md-4 col-sm-7">
+            <div class="row site-map">
+               <div class="col-sm-6">
+                  <h6>Programs</h6>
+                  <ul class="mb-3 pl-0">
+                     <li><a href="/course/fullstack">Full Stack Course</a></li>
+                     <li><a href="/admissions">Apply Now</a></li>
+                     <li><a href="/admissions/portal">Admissions Portal</a></li>
+                  </ul>
+               </div>
+               <div class="col-sm-6">
+                  <h6>About EDA</h6>
+                  <ul class="mb-3 pl-0">
+                     <li><a href="/careers">Careers</a></li>
+                     <li><a href="/partners">Partners</a></li>
+                     <li><a href="/volunteer">Volunteer</a></li>
+                     <li><a target="_blank" href="https://forms.gle/Ve8GqWLzvLFKg8Wo8">ND Tech Survey</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 col-sm-5 mb-3">
+            <h6>Contact</h6>
+            <address>
+               Emerging Academy<br />
+               122 1/2 Broadway N<br />
+               Fargo, ND 58103<br />
+               <abbr title="Phone">P:</abbr> 701-484-0003
+            </address>
+
+            <span class="email">
+               <a href="mailto:hello@emergingacademy.org">hello@emergingacademy.org</a>
+            </span>
+            <br /><br />
+            <div class="social-icons">
+               <a href="https://www.facebook.com/Emerging-Digital-Academy-109999410428044/"><i
+                     class="fab fa-facebook"></i></a>
+               <a href="https://twitter.com/EDigitalAcademy"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.instagram.com/emergingdigitalacademy/"><i class="fab fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/company/emerging-digital-academy/about/"><i
+                     class="fab fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="col-12 text-center">
+            &copy; 2020 Emerging Digital Academy
+         </div>
+      </footer>
+   </div> <!-- /container -->

@@ -1,0 +1,6 @@
+      <!-- step 3: yellow jumbotron -->
+      <div class="row bg-curiosity-yellow p-4 rounded-top">
+         <div class="col d-flex justify-content-center">
+            <img class="curiosity-logo" src="./images/curiosity-logo.png" />
+         </div>
+      </div>

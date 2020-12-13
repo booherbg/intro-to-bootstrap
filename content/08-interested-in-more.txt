@@ -1,0 +1,28 @@
+      <!-- step 8: interested in more? -->
+      <div class="row rounded-bottom bg-curiosity-blue p-3 pt-5">
+         <div class="col-md">
+            <h3>Interested in hosting an event, teaching a course or speaking?</h3>
+            <p>If you’re interested in hosting an event, teaching a
+               course, or speaking at an event during Curiosity Week,
+               let us know! We’re looking for individuals, businesses
+               and community organizations that are interested in
+               bringing education and impact to the technology
+               community. Email Liz at <a href="mailto:lizc@emergingprairie.com">lizc@emergingprairie.com</a> for
+               more information.</p>
+            <h3>Why participate in Curiosity Week?</h3>
+            <p>By participating in a Curiosity Week event, you will
+               have the opportunity to create a truly unique experience
+               rooted in the power of curiosity, education and community.
+               Events throughout the week are organized by community members,
+               organizations, businesses and the Founding Partners.</p>
+
+            <div class="row">
+               <div class="col-md text-center">
+                  <a href="mailto:lizc@emergingprairie.com"
+                     class="btn btn-large btn-curiosity-yellow pb-3 pt-3 pr-5 pl-5 mt-4 mb-3">
+                     &nbsp; &nbsp; ContactUs &nbsp; &nbsp;
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>

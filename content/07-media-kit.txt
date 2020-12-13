@@ -1,0 +1,20 @@
+      <!-- step 7: media kit -->
+      <div class="row bg-curiosity-blue p-3">
+         <div class="col-md-6 d-flex align-items-center justify-content-center bg-curiosity-blue">
+            <img src="./images/curiosity-question-mark.jpg" class="question-mark p-3" />
+         </div>
+         <div class="col-md-6 text-white p-md-4">
+            <h2>Media Kit.</h2>
+            <p>Even if you don’t participate an event, you
+               can still support the tech industry across
+               our region. Consider sharing about Curiosity
+               Week on your social media, in a newsletter
+               or with a friend. Feel free to use the copy
+               and graphics from our media kit below!
+            </p>
+            <div class="text-center pt-3">
+               <a href="https://emergingacademy.org/static/curiosity-week-media-kit.zip"
+                  class="btn btn-large btn-curiosity-yellow pb-3 pt-3 pr-5 pl-5">Download our Media Kit</a>
+            </div>
+         </div>
+      </div>
