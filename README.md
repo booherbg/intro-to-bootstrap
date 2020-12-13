@@ -22,9 +22,16 @@ so I always recommend reading as much of the documentation as possible before
 starting a project, otherwise the classes wont make much sense (this isnt something
 you can just 'guess' at in most cases).
 
+Bootstrap also uses what is called a 'mobile-first' strategy, which means that
+unless otherwise specified, all styles by default are applied to screens at the
+"extra-small" size and larger. To override behavior for larger screensizes 
+(small, medium, large, extra-large), you have to explicitly specify it.
+
 At a high level, there's two major "domains" that you can use bootstrap for, and
 its up to you on how far you want to take it. The first is the responsive grid, 
-and the second are components like buttons, alerts, modals, and typography.
+and the second are component utilities like vertical and horizonal alignment,
+navbar, form controls (buttons, inputs, drop-downs, etc), alerts, modals, icons,
+and typography.
 
 ## Bootstrap Workflow
 
@@ -74,18 +81,20 @@ its own virtual grid of 12 columns too).
 
 In addition, almost every bootstrap class has the ability to specify what screen
 sizes you want the class to be active for. By default all classes are implied to
-be active for "extra-small" (`xs`) screens and above. If you specify a different screen
-size (small, medium, large: `sm`, `md`, and `lg`), Bootstrap will apply that rule only for that screen
-size *and larger* but disable it for screen sizes smaller than the specified width.
+be active for "extra-small" screens and above. If you specify a different screen
+size (small, medium, large, extra-large: `sm`, `md`, `lg`, `xl`), Bootstrap will 
+apply that rule only for that screen size *and larger* only.
 
 For example: 
 
   - `col-12` will take up all 12 columns on extra-small screens and larger (so all sizes)
    This can be short-cutted to simply `col` which implies taking up all 12 columns at
-   all screen sizes.
+   all screen sizes. With Bootstrap, not specifying a screen width defaults to
+   extra-small.
   - `col-md-6` will take up 6 column on medium screens and above, but drop back to 12 
    columns on `xs` and `sm` screens (like mobile phones).
-  - `col-md-6 col-lg-3` will take up 12 columns on small, 6 on medium, 3 on large.
+  - `col-md-6 col-lg-3` will take up 12 columns on extra-small and small, 6 on medium, 
+   3 on large.
 
 You can also apply this strategy to utility helpers like margin and padding control,
 typography, and responsive image controls.

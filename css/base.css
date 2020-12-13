@@ -15,32 +15,44 @@ $dark: #4a4d47;
 $light: #f2f0ef;
 */
 
-/* Make the tiled background */
+/* Make the tiled background. Technically it's two layers, a tiled pattern
+with a transparent CSS gradient on top of it. You can't have two backgrounds
+on the same element so we use a CSS trick by adding the second layer to the
+:before psuedo-selector */
 body {
-	background-color: #4a4d47;
 	overflow-x: hidden;
-	background: url('images/hex-tile.jpg') repeat;
-  background-attachment: fixed;
+	background: url('./images/hex-tile.jpg') repeat;
+  background-attachment: fixed; /* tiles dont scroll w/ the page */
   position: relative;
 }
 
-/* Add the fun transparent gradient on top of it */
+/* Add the fun transparent gradient on top of the tiled background */
 body:before {
-    content: '';
+    /* For browsers that dont support radial-gradient, we will 
+    server them a darker version of the tile pattern so that
+    the site doesnt look like an ultra-bright party disco */
+    background: url('./images/hex-tile-fallback.jpg'); 
+
+    content: ''; /* required for :before psuedoselector */
+
+    /* Start this psuedo-layer at the top left of the page */
 		position: absolute;
 		top: 0;
 		right: 0;
 		bottom: 0;	
-		left: 0;
+    left: 0;
+    
+    /* Use radial-gradient to create a cool transparent color affect */
     background: 
       radial-gradient(farthest-corner at bottom left, rgba(23,35,116,0.8) 15%, transparent),
       radial-gradient(farthest-side at top left, rgba(0,165,156,0.9), rgba(0,165,156,0.8) 30%, rgba(100,19,122,0.7) 60%, transparent),
       radial-gradient(farthest-side at top right, rgba(100,19,122,0.95), rgba(252,0,141,0.8) 200px, transparent),
       radial-gradient(farthest-corner at bottom right, rgba(0,165,156,0.8), rgba(0,165,156,0.9) 20%, rgba(23,35,116,0.9) 50%, transparent);
-    background-attachment: fixed;
-		z-index: -5;
+    background-attachment: fixed; /* gradient doesnt scroll w/ page */
+		z-index: -5; /* Make sure it is in front of the tile pattern but behind the main content */
 }
 
+/* Footer Stuff */
 footer {
   /* custom background color for footer: 100% white with 80% opacity */
   background-color: rgba(255, 255, 255, 0.8);
@@ -48,9 +60,18 @@ footer {
 
 footer a {
   color: #6c757d !important;
+  text-decoration: underline;
+}
+
+footer li {
+  list-style: none;;
 }
 
 footer h6 {
   border-bottom: 2px solid #00a59c; /* Add a greenish underline to footer subheaders */
   white-space: nowrap; /* Dont let text wrap to next line */
+}
+
+footer .social-icons {
+  font-size: 200%;
 }
