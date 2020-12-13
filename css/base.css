@@ -21,9 +21,13 @@ on the same element so we use a CSS trick by adding the second layer to the
 :before psuedo-selector */
 body {
 	overflow-x: hidden;
-	background: url('./images/hex-tile.jpg') repeat;
+	background: url('../images/hex-tile.jpg') repeat;
   background-attachment: fixed; /* tiles dont scroll w/ the page */
   position: relative;
+}
+
+body, html {
+  height: 100%;
 }
 
 /* Add the fun transparent gradient on top of the tiled background */
