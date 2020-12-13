@@ -6,7 +6,8 @@ Week webpage using Bootrap. We already have the image assets saved in the
 template and stubbed out sections. `style.css` is where we'll do our custom
 styling for the page, and `base.css` has some styles that are part of the
 EDA branding that are not specific to Curiosity Week (like background tiles and
-footer styling).
+footer styling). The `content/` folder has code for each step, including the 
+finished project.
 
 We'll move pretty quickly but don't worry. You'll have access to the completed
 project and recorded video so you can review at your leisure. 
