@@ -9,8 +9,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
    <!-- bootstrap CSS import -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <!-- bootstrap js bundle (for modals etc) -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
    <!-- google font import for Open Sans -->
    <link href="https://fonts.googleapis.com/css?family=Open Sans:300,400,700&display=swap" rel="stylesheet">
@@ -28,7 +30,7 @@
    <div class="container">
 
       <!-- step 1: navbar - basically pasted from bootstrap examples -->
-      <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
+      <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
       <nav class="main-nav navbar navbar-dark navbar-expand-lg mb-3">
          <a class="logo" href="/"><img src="./images/logo.png" /></a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -36,9 +38,9 @@
             <span class="navbar-toggler-icon"></span>
          </button>
 
-         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarTogglerDemo02">
             <!-- notice: ml-auto adds a left-margin of auto to push the navbar to the right -->
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mt-2 mt-lg-0">
                <li class="nav-item">
                   <!-- a custom class for curiosity week colors !-->
                   <a class="nav-link curiosity-week-nav-link" href="/curiosity-week-2020">Curiosity Week</a>
