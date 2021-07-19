@@ -1,5 +1,5 @@
       <!-- step 1: navbar - basically pasted from bootstrap examples -->
-      <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
+      <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
       <nav class="main-nav navbar navbar-dark navbar-expand-lg mb-3">
          <a class="logo" href="/"><img src="./images/logo.png" /></a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -7,9 +7,9 @@
             <span class="navbar-toggler-icon"></span>
          </button>
 
-         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarTogglerDemo02">
             <!-- notice: ml-auto adds a left-margin of auto to push the navbar to the right -->
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mt-2 mt-lg-0">
                <li class="nav-item">
                   <!-- a custom class for curiosity week colors !-->
                   <a class="nav-link curiosity-week-nav-link" href="/curiosity-week-2020">Curiosity Week</a>
